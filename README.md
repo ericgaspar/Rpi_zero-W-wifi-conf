@@ -6,13 +6,14 @@ Insert your SD card with Raspbian into it into your computer and open the SD car
 Copy `wpa_supplicant.conf` with the following code
 
 ```
-country=fr
+country=FR
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 network={
-    ssid="MyWiFiNetwork"
+    ssid="MyWiFiNetworkssid"
     psk="MyWiFiPassword"
-    key_mgmt=WPA-PSK  
+    key_mgmt=WPA2-PSK/AES
+    }  
 ```
 
 ### Enable SSH
