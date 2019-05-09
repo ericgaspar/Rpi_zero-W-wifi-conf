@@ -1,4 +1,4 @@
-# How To Setup Raspberry Pi Zero W Headless WiFi
+# Raspberry Pi Zero W Headless setup WiFi
 
 ### Setup your WIFI Credentials
 Insert your SD card with Raspbian into it into your computer and open the SD card - the drive will be labeled **boot**.
@@ -12,7 +12,7 @@ update_config=1
 network={
     ssid="MyWiFiNetworkssid"
     psk="MyWiFiPassword"
-    key_mgmt=WPA2-PSK/AES
+    key_mgmt=WPA-PSK
     }  
 ```
 
