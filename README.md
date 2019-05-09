@@ -18,4 +18,4 @@ network={
 
 ### Enable SSH
 
-Create an empty file in the boot directory called **ssh**
+Create an empty file in the boot directory called **ssh** in the **boot** drive
